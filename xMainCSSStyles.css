@@ -4,6 +4,15 @@
 
 /* Add styles below this*/
 
+h1 {
+  color: blue;
+}
+
+h1 {
+  color: blue;
+}
+
+
 
 .hero-image {
   	/*USE ON PAGE: background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)), url("xxx");*/
@@ -24,6 +33,7 @@
   	transform: translate(-50%, -50%);
   	color: white;
 	font-family: times,serif;
+	font-size:25px;
 }
   
 
