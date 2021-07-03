@@ -85,6 +85,7 @@ body, html {
 	/*margin-left: 40px;*/
 	margin-left: 17%; /* Same width as the sidebar + left position in px */ /*reponsive*/
 	font-family: times,serif;
+	color: black;
 }
 
 
