@@ -5,11 +5,25 @@
 /* Add styles below this*/
 
 h1 {
-  	color: black;
+	border: none;
+	outline: none;
+	text-align: Left;
+	font-weight: bold;
+	color: black;
 	font-size: 14px;
 	font-family: times,serif;
+   	
 }
 
+P {
+	border: none;
+	outline: none;
+	text-align: Left;
+	font-weight: bold;
+	color: black;
+	font-size: 12px;
+	font-family: times,serif;
+}
 
 .hero-image {
   	/*USE ON PAGE: background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)), url("xxx");*/
