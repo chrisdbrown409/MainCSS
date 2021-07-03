@@ -5,13 +5,10 @@
 /* Add styles below this*/
 
 h1 {
-  color: blue;
+  	color: black;
+	font-size: 14px;
+	font-family: times,serif;
 }
-
-h1 {
-  color: blue;
-}
-
 
 
 .hero-image {
