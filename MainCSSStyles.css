@@ -9,7 +9,7 @@
 
 .footer{
 	/*position: Fixed; this makes it sticky always at the bottom of the page*/
-	/*margin-left: 4%; controlled by main class*/
+	margin-left: 17%; controlled by main class*/
 	width: 100%;
 	padding: 0px 0px 10px 0px; /*top,right,bottom, left */
 	left: 0;
