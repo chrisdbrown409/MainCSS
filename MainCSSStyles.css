@@ -147,7 +147,7 @@ body, html {
   content: "\2212"; /* Unicode character for "minus" sign (-) */
 }
 
-.collapsible:content {
+.content {
   	padding: 0% 0%; /*top,right,bottom,left 18px*/
 	width: 91%; 
   	/*margin-left: 14%; controlled by main class*/
