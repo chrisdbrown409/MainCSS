@@ -38,6 +38,10 @@
   color: #064579;
 }
 
+@media screen and (max-height: 450px) {
+  	.sidenav {padding-top: 220px;}
+  	.sidenav a {font-size: 12px;}
+}
 
 .footer{
 	/*position: Fixed; this makes it sticky always at the bottom of the page*/
