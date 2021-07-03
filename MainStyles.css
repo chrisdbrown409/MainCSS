@@ -1,0 +1,54 @@
+/*
+<link href='MainSyles.css" rel="stylesheet">
+
+w Eric Meyer
+<link rel="stylesheet" type='text/css" href="http://meyerweb.com/eric/tools/css/reset/reset.css">
+
+w Tim Murtaugh
+<link rel="stylesheet" type='text/css" href="http://github.com/murtaugh/html5-reset">
+
+p {font-family: "Times New Roman, Times, Serif;}
+p {font-weight: Normal;}
+p {font-style:	Normal;}
+p {font-size:  	32;}
+
+.box {
+	width: 300px;
+	padding: 10px;
+	border: 1px solid block;
+	box-sizing: content-box;
+	/* content-box = 322, border box= 300*/
+}
+
+padding: 10px 20px 15px 10px; /*TRBL*/
+padding: 10px /*(all side equally)*/
+
+border-top: 1px sold black /*just one side*/
+border: 1px sold black /*all sides*/
+border color: black;
+
+Outline: 
+
+/*Example 1- controls the view based on screen */
+@media only screen and (min-width: 800px)
+.sit-title {
+text-align: left;
+}
+
+/*Example 2- Mobile First smallest to largest */
+//settings for smaller screens
+h1 {
+	font-size: 30 px;
+}
+
+//settings for larger screens
+@media (min-width: 640px){
+
+h1 	{
+	font-size: 60 px;
+	}
+} /*close media bracket*/
+
+
+
+*/
