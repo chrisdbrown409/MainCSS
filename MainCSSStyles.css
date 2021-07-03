@@ -69,6 +69,46 @@
 }
 */
 
+.collapsible {
+  	/**USE ON PAGE: background-color: #3a7ae0;*/
+	height: 10%; /*reactive*/
+	/*margin-left: 14%; controlled by main class*/
+  	color: white;
+  	cursor: pointer;
+  	/*padding: 18px; /*non-reactive*/
+	padding: 1%; /*reactive*/
+	width: 65%;
+  	border: none;
+  	text-align: Left;
+  	outline: none;
+  	font-size: 14px;
+	font-family: times,serif;
+}
+
+.active, .collapsible:hover {
+  	/**USE ON PAGE: background-color: #2a61b8;*/
+}
+
+.collapsible:after {
+  	content: '\002B'; /* Unicode character for "plus" sign (+) */
+  	/*margin-left: 14%; controlled by main class*/
+  	color: white;
+  	font-weight: bold;
+  	float: right;
+  	font-size: 14px;
+	font-family: times,serif;
+}
+
+.active:after {
+  content: "\2212"; /* Unicode character for "minus" sign (-) */
+}
+
+
+
+
+
+
+
 .footer{
 	/*position: Fixed; this makes it sticky always at the bottom of the page*/
 	/*margin-left: 17%; controlled by main class*/
