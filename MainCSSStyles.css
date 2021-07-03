@@ -1,54 +1,36 @@
-/*
-<link href='MainSyles.css" rel="stylesheet">
+/*COMMENTS*/
+/* 07-01-2021: Created file with wrapper, header, content and footer.*/
+	
 
-w Eric Meyer
-<link rel="stylesheet" type='text/css" href="http://meyerweb.com/eric/tools/css/reset/reset.css">
+/* Add styles below this*/
 
-w Tim Murtaugh
-<link rel="stylesheet" type='text/css" href="http://github.com/murtaugh/html5-reset">
-
-p {font-family: "Times New Roman, Times, Serif;}
-p {font-weight: Normal;}
-p {font-style:	Normal;}
-p {font-size:  	32;}
-
-.box {
-	width: 300px;
-	padding: 10px;
-	border: 1px solid block;
-	box-sizing: content-box;
-	/* content-box = 322, border box= 300*/
+.wrapper{
+	width: 70%;
 }
 
-padding: 10px 20px 15px 10px; /*TRBL*/
-padding: 10px /*(all side equally)*/
-
-border-top: 1px sold black /*just one side*/
-border: 1px sold black /*all sides*/
-border color: black;
-
-Outline: 
-
-/*Example 1- controls the view based on screen */
-@media only screen and (min-width: 800px)
-.sit-title {
-text-align: left;
+.header{
+	background-color: purple;
+	color: white;
+	padding: 30px;
 }
 
-/*Example 2- Mobile First smallest to largest */
-//settings for smaller screens
-h1 {
-	font-size: 30 px;
+.content{
+	border: 1px solid black;
+	padding: 30px;
+	margin: 10px 0;
 }
 
-//settings for larger screens
-@media (min-width: 640px){
-
-h1 	{
-	font-size: 60 px;
-	}
-} /*close media bracket*/
-
-
-
-*/
+.footer{
+	/*position: Fixed; this makes it sticky always at the bottom of the page*/
+	/*margin-left: 4%; controlled by main class*/
+	width: 100%;
+	padding: 0px 0px 10px 0px; /*top,right,bottom, left */
+	left: 0;
+	bottom: 0;
+	background-color: White;
+	color: blank;
+	text-align: left;
+  	font-size:8pt;
+  	font-style:normal;
+	font-family: times,serif;
+ }
