@@ -9,39 +9,19 @@
 	<Title>Chris Brown | CSS</Title>
 
 <style>
+.hero-image {
+  	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)), url("https://images.unsplash.com/photo-1500417148159-68083bd7333a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
+ }
+	
+	
 .collapsible {
   	background-color: #3a7ae0;
-	height: 10%; /*reactive*/
-	/*margin-left: 14%; controlled by main class*/
-  	color: white;
-  	cursor: pointer;
-  	/*padding: 18px; /*non-reactive*/
-	padding: 1%; /*reactive*/
-	width: 65%;
-  	border: none;
-  	text-align: Left;
-  	outline: none;
-  	font-size: 14px;
-	font-family: times,serif;
 }
 
 .active, .collapsible:hover {
-  background-color: #2a61b8;
+	background-color: #2a61b8;
 }
 
-.collapsible:after {
-  	content: '\002B'; /* Unicode character for "plus" sign (+) */
-  	/*margin-left: 14%; controlled by main class*/
-  	color: white;
-  	font-weight: bold;
-  	float: right;
-  	font-size: 14px;
-	font-family: times,serif;
-}
-
-.active:after {
-  content: "\2212"; /* Unicode character for "minus" sign (-) */
-}
 
 .content {
   	padding: 0% 0%; /*top,right,bottom,left 18px*/
@@ -62,9 +42,6 @@ body, html {
 	font-family: times,serif;
     }
 
-.hero-image {
-  	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)), url("https://images.unsplash.com/photo-1500417148159-68083bd7333a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
- }
 
 /*moved  .hero 	 to sytle-sheet */
 /*moved  .sidnav to sytle-sheet */
